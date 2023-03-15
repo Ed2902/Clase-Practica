@@ -1,0 +1,70 @@
+/*
+paleta de colores
+#A60015, #FFFFFF, #F5F5F3,#6AB7D5, #979797 */
+
+.{
+
+    margin: 0%; 
+    padding: 0%;
+    font-family: "Source Sans Pro";
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+body{
+    height: 150vh;
+    
+
+}
+
+.container_header{
+    width:100%;
+    height:41%;
+    background: #141414;
+    background-image: linear-gradient(10deg,#201f1f7a,#363535c9, #2e19198c),url(../img/pexels-lil-artsy-5541019.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+ .menu{
+    text-align: right;
+    margin-right: 0%;
+    margin-top: 1;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+ }
+
+ .menu a{
+    color:#F5F5F3;
+    text-decoration: none;
+ }
+.hr{
+
+    border-color: #fef9d7;
+}
+ .menu > li {
+
+    display: inline-block;
+    padding: 1.2% 2.2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    background-color: #d299c2;
+ }
+
+ .menu >li:hover{
+
+    background-color: #ac6c9a;
+    border: 2px solid;
+ }
+ .menu .btn_contacto{
+    background-color: #d299c2;
+    border: 3px solid;
+ }
+
+ .title{
+    text-align: center;
+    font-size: 4em;
+    margin: 1%;
+    color:antiquewhite;
+ }
